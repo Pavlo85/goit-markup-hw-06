@@ -23,6 +23,10 @@ ul {
   padding-inline-start: 0;
 }
 
+
+button{
+  border: hidden;
+}
 img {
   display: block;
   min-width: 100%;
@@ -724,12 +728,24 @@ color: #757575;
   form h3{
     font-weight: 700;
 font-size: 20px;
-line-height: 23px;
+line-height: 1,15;
 text-align: center;
 letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 12px;
   }
-
+  
+  .form-button{
+    width: 200px;
+height: 50px;
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+display: flex;
+margin: auto;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+  }
 
 
