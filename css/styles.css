@@ -619,8 +619,18 @@ header nav {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 8px;
-}
+  height: 30px;
+  width: 30px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 0;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 8px;
+ border: none;
+  
+  }
 
 .button-modal:hover,
 .button-modal:focus{
@@ -682,7 +692,7 @@ cursor: pointer;
 label{
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 input{
@@ -690,10 +700,36 @@ input{
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+margin-bottom: 10px;
+margin: 0;
+padding-left: 15px;
 }
-
+input:hover,
+input:focus{
+  border-color: #2196F3;
+}
   textarea{
     padding: 10px;
   }
+
+
+  .form-name{
+    margin-bottom: 4px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: #757575;
+  }
+  form h3{
+    font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+  }
+
 
 
