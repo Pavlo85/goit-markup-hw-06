@@ -622,8 +622,15 @@ header nav {
   margin: 8px;
 }
 
+.button-modal:hover,
+.button-modal:focus{
+fill: #2196F3;
+}
+
+
 button {
-  border: hidden;
+  /* border: hidden; */
+  
 }
 
 .footer-heading{
@@ -659,3 +666,34 @@ font-size: 16px;
 line-height: 30px;
 cursor: pointer;
 }
+
+
+.modal{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  
+}
+
+.form{
+  
+  display: inline-block;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+input{
+  height: 40px;
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+  textarea{
+    padding: 10px;
+  }
+
+
