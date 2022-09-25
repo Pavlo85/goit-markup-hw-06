@@ -653,6 +653,37 @@ button {
 .enter-login{
   display:flex;
 }
+
+.button-footer{
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: 28px;
+  
+font-size: 16px;
+line-height: 30px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+ 
+}
+.footer-icon{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 28px;
+  fill: var(--primari-background-color);
+  
+}
+
+
+
 .enter-login input{
   margin-right: 30px;
   width: 358px;
@@ -708,10 +739,14 @@ margin-bottom: 10px;
 margin: 0;
 padding-left: 42px;
 }
-input:hover,
-input:focus{
+.form-field .text:hover,
+.form-field input:hover,
+.form-field .text:focus,
+.form-field input:focus{
+
   border-color: hsl(207, 90%, 54%);
   }
+  
   
 
 .form-field:hover .icon-input,
