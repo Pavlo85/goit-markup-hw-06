@@ -706,11 +706,18 @@ input{
 border-radius: 4px;
 margin-bottom: 10px;
 margin: 0;
-padding-left: 15px;
+padding-left: 42px;
 }
 input:hover,
 input:focus{
-  border-color: #2196F3;
+  border-color: hsl(207, 90%, 54%);
+  }
+  
+
+.form-field:hover .icon-input,
+.form-field:focus .icon-input{
+  fill: #188CE8;
+  
 }
   textarea{
     padding: 10px;
@@ -748,4 +755,20 @@ justify-content: center;
 color: #FFFFFF;
   }
 
+.form-field{
+  position: relative;
+  
+}
 
+
+
+  .icon-input{
+    
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  left: 0;
+  left: 15px;
+  
+}
