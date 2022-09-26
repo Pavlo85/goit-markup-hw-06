@@ -739,6 +739,8 @@ border-radius: 4px;
 margin-bottom: 10px;
 margin: 0;
 padding-left: 42px;
+outline: none;
+
 }
 .form-field .text:hover,
 .form-field input:hover,
@@ -746,31 +748,29 @@ padding-left: 42px;
 .form-field input:focus{
 
   border-color: hsl(207, 90%, 54%);
-  }
+}
   
   
 
 .form-field:hover .icon-input,
 .form-field:focus .icon-input{
-  fill: #188CE8;
+  fill: var(--accent-color);
   
 }
+
+
+
   textarea{
     padding: 10px;
     
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 resize: none;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.01em;
-color: rgba(117, 117, 117, 0.5);
-
-
+outline: none;
   }
 
-  textarea:hover{
+ textarea:hover,
+ textarea:focus{
     border-color: var(--accent-color);
   }
 
