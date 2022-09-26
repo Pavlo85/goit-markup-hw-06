@@ -823,3 +823,19 @@ margin-top: 10px;
   left: 15px;
   
 }
+
+
+
+label.box{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+}
+.custom-input {
+  display: inline-flex;
+  width: 15px;
+  
+  /* position: relative; */
+  /* border: 4px solid transparent;
+  color: #fff; */
