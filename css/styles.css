@@ -767,6 +767,7 @@ outline: none;
 border-radius: 4px;
 resize: none;
 outline: none;
+
   }
 
  textarea:hover,
@@ -793,11 +794,12 @@ letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 12px;
   }
-  
+
+ 
   .form-button{
     width: 200px;
 height: 50px;
-background: #188CE8;
+background:  #2196F3;;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 display: flex;
@@ -806,7 +808,13 @@ align-items: center;
 justify-content: center;
 color: #FFFFFF;
 margin-top: 10px;
+cursor: pointer;
   }
+
+.form-button:hover{
+  background: #188CE8;
+}
+
 
 .form-field{
   position: relative;
@@ -824,14 +832,16 @@ margin-top: 10px;
   
 }
 
+/* чекбокс */
 
-
-label.box{
+.box{
   display: flex;
   flex-direction: row;
   
   align-items: center;
   position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .custom-input {
   display: inline-flex;
@@ -847,12 +857,48 @@ label.box{
   .icon-check{
     position: absolute;
     height: 15px;
-    width: 15px;
-    /* left: 15px; */
+    width: 16px;
+    left: 15px;
+    opacity: 1;
+    
+  }
+  .lable-name{
+    padding-left: 36px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+color: #757575;
+
+  }
+  .contract{
+    font-weight: 400;
+font-size: 14px;
+line-height: 2;
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+margin-left: 3px;
   }
 
   .box .hidden{
+    position: absolute;
  appearance: none;
 -moz-appearance: none;
     -webkit-appearance: none;
+}
+
+
+.check-box{
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  left: 13px;
+
+  background-image: url(/images/Vector.svg);
+}
+
+.custom-input:checked + .check-box{
+  background-image: url(/images/icon-check.svg);
 }

@@ -455,7 +455,7 @@
 
           <label class="form-field">
             <span class="form-name">Пошта</span>
-            <input class="input-form" type="text" name="email" minlength="5" maxlength="12" />
+            <input class="input-form" type="text" name="email" minlength="5" maxlength="120" />
             <svg class="icon-input">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
@@ -463,17 +463,18 @@
 
           <label>
             <span class="form-name">Коментар</span>
-            <textarea name="feedback" rows="6" placeholder="Введіть текст"></textarea>
+            <textarea name="feedback" rows="5" placeholder="Введіть текст"></textarea>
           </label>
         </form>
 
         <label class="box">
-          <input class="custom-input hidden" type="checkbox" name="weekday" value="Mon" checked />
-          <span>понеділок </span>
-          <a href="ukr.net">ukrnet</a>
-          <svg class="icon-check">
+          <input class="custom-input hidden" type="checkbox" name="weekday" value="Mon" />
+          <span class="check-box"></span>
+          <span class="lable-name"> Погоджуюся з розсилкою та приймаю </span>
+          <a href="ukr.net" class="contract">Умови договору</a>
+          <!-- <svg class="icon-check">
             <use href="./images/icons.svg#icon-twitter"></use>
-          </svg>
+          </svg> -->
         </label>
 
         <button class="form-button" type="submit">Відправити</button>
