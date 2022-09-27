@@ -929,9 +929,9 @@ margin-left: 3px;
   height: 15px;
   left: 13px;
 
-  background-image: url(/images/Vector.svg);
+  background-image: url(../images/Vector.svg);
 }
 
 .custom-input:checked + .check-box{
-  background-image: url(/images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
 }
