@@ -741,11 +741,21 @@ margin: 0;
 padding-left: 42px;
 outline: none;
 
+
+
 }
+
+.input-form:focus + .icon-input{
+  fill: var(--accent-color);
+}
+
+
 .form-field .text:hover,
 .form-field input:hover,
 .form-field .text:focus,
-.form-field input:focus{
+.form-field input:focus
+
+{
 
   border-color: hsl(207, 90%, 54%);
 }
