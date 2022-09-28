@@ -625,8 +625,6 @@ header nav {
   height: 30px;
   width: 30px;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   padding: 0;
   border-radius: 50%;
   margin-top: 8px;
@@ -651,9 +649,10 @@ fill: #2196F3;
 }
 .enter-login{
   display:flex;
+  flex-direction: row;
 }
 
-.button-footer{
+.btn-footer{
   display: flex;
   position: relative;
   align-items: center;
